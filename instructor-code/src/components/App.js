@@ -16,9 +16,9 @@ class App extends Component {
         </nav>
         <Route path="/" exact component={Home} />
         <Route path="/about" render={() => <About>
-            <Route path="/about/faq" component={FAQ}/>
-            <Route path="/about/company" component={Company}/>
-          </About>} />
+          <Route path="/about/faq" component={FAQ} />
+          <Route path="/about/company" component={Company} />
+        </About>} />
       </div>
     );
   }
