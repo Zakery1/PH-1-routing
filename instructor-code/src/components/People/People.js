@@ -19,7 +19,7 @@ export default class People extends Component {
   }
 
   render() {
-    const people = this.state.people.map((e, i) => {
+    const people = this.state.people.map(e => {
       return (
         <h3 key={e.id}><Link to={`/people/${e.id}`}>{e.name}</Link></h3>
       )
